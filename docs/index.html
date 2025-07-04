@@ -8,14 +8,53 @@
 </head>
 
 <body>
-  <div class="container"> 
-  <h1>Capstones</h1>
-  <p>Student Projects.</p>
-  <video width="640" controls>
-    <source src="studentProjectsSpring2025.mp4" type="video/mp4"> type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  </div>
+  <div class="container">
+    <h1>Capstones</h1>
+    <h2>Student Projects</h2>
+    <video width="640" controls>
+      <source src="studentProjectsSpring2025.mp4" type="video/mp4"> type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="game-showcase">
+      <h2>Play The Games</h2>
+
+      <div class="game-grid">
+        <div class="game-card">
+          <div class="game-frame-container"
+            data-src="https://codehs.com/sandbox/debbienrs/magic-8-ball-how-to/embed/?display_mode=displayOnly&show_file_tree=False"
+            data-thumbnail="thumbnails/game1-thumb.jpg">
+            <div class="game-cover">
+              <button class="play-button">▶ Play</button>
+            </div>
+          </div>
+          <div class="game-description">
+            <h3>Tic Tac Toe</h3>
+            <p>I chose this game because it has a visual element, color changes and a delay to simulate a moment to pull
+              up an answer, and randomized choices from a list.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelectorAll('.game-frame-container').forEach(container => {
+        container.addEventListener('click', function () {
+          const src = container.getAttribute('data-src');
+          const iframe = document.createElement('iframe');
+          iframe.setAttribute('src', src);
+          iframe.setAttribute('allowfullscreen', '');
+          iframe.style.position = 'absolute';
+          iframe.style.top = '0';
+          iframe.style.left = '0';
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+          iframe.style.border = 'none';
+
+          container.innerHTML = ''; // Remove cover
+          container.appendChild(iframe); // Insert game iframe
+        });
+      });
+    </script>
 </body>
 
 </html>

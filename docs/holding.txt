@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+           <div class="game-card">
+        <div class="game-frame-container">
+                    <iframe src="https://codehs.com/sandbox/debbienrs/magic-8-ball-how-to/embed/?display_mode=displayOnly&read_only=True&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe">
+        </div>
+        <div class="game-description">
+          <h3>Guess The Word</h3>
+          <p>I chose this game because .....</p>
+        </div>
+      </div>
+
+      
+      
+      <div class="game-card">
+        <div class="game-frame-container">
+            <iframe src="https://codehs.com/sandbox/debbienrs/magic-8-ball-how-to/embed/?display_mode=displayOnly&read_only=True&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe">
+
+        </div>
+        <div class="game-description">
+          <h3>Platfomer Jump</h3>
+          <p>I chose this game because .....</p>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <div class="game-frame-container">
+            <iframe src="https://codehs.com/sandbox/debbienrs/magic-8-ball-how-to/embed/?display_mode=displayOnly&read_only=True&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe">
+
+        </div>
+        <div class="game-description">
+          <h3>Obstacle Jump</h3>
+          <p>I chose this game because .....</p>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <div class="game-frame-container">
+            <iframe src="https://codehs.com/sandbox/debbienrs/magic-8-ball-how-to/embed/?display_mode=displayOnly&read_only=True&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe">
+        </div>
+        <div class="game-description">
+          <h3>Click and Disappear</h3>
+          <p>I chose this game because .....</p>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <div class="game-frame-container">
+             <iframe src="https://codehs.com/sandbox/debbienrs/magic-8-ball-how-to/embed/?display_mode=displayOnly&read_only=True&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe">
+        </div>
+        <div class="game-description">
+          <h3>Ski Race</h3>
+          <p>I chose this game because .....</p>
+        </div>
+      </div>
+
+      <div class="game-card">
+        <div class="game-frame-container">
+          <iframe src="https://codehs.com/sandbox/debbienrs/magic-8-ball-how-to/embed/?display_mode=displayOnly&read_only=True&show_file_tree=False" frameborder="0" allowfullscreen class="video-iframe">
+        </div>
+        <div class="game-description">
+          <h3>Day to Night</h3>
+          <p>I chose this game because .....</p>
+        </div>
+      </div>
+
+      <!-- Add more game-card blocks as needed -->

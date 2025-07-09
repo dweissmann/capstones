@@ -65,7 +65,7 @@ video {
 .game-frame-container {
   position: relative;
   width: 100%;
-  padding-top: 125%; /* Portrait aspect ratio */
+  padding-top: 10px; /* Portrait aspect ratio */
   background: #000;
   border-bottom: 1px solid #aaa;
   overflow: hidden;
